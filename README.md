@@ -8,23 +8,23 @@ When all couriers of a warehouse are no longer alive, the warehouse shuts down. 
 
 Compile code:
 
-gcc -o dyspozytornia Dyspozytornia.c
+    gcc -o dyspozytornia Dyspozytornia.c
 
-gcc -o m1 m1.c
+    gcc -o m1 m1.c
 
-gcc -o m2 m2.c
+    gcc -o m2 m2.c
 
-gcc -o m3 m3.c
+    gcc -o m3 m3.c
 
 
 
 Execute code (Dispatch center have to be first, 4 secods to execute rest are given):
 
-./dyspozytornia "kolejka" 1000 5 3 4
+    ./dyspozytornia "kolejka" 1000 5 3 4
 
-./m1 ./m1_conf.txt "queue"
+    ./m1 ./m1_conf.txt "queue"
 
-./m2 ./m2_conf.txt "queue"
+    ./m2 ./m2_conf.txt "queue"
 
-./m3 ./m3_conf.txt "queue"
+    ./m3 ./m3_conf.txt "queue"
 
