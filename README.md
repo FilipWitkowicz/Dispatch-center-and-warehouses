@@ -7,6 +7,7 @@ When warehouses are empty or couriers do not receive orders for a specified peri
 When all couriers of a warehouse are no longer alive, the warehouse shuts down. When all warehouses shut down, the dispatch center also shuts down.
 
 Compile code:
+
 gcc -o dyspozytornia Dyspozytornia.c
 
 gcc -o m1 m1.c
