@@ -8,9 +8,13 @@ When all couriers of a warehouse are no longer alive, the warehouse shuts down. 
 
 Compile code:
 gcc -o dyspozytornia Dyspozytornia.c
+
 gcc -o m1 m1.c
+
 gcc -o m2 m2.c
+
 gcc -o m3 m3.c
+
 
 
 Execute code (Dispatch center have to be first, 4 secods to execute rest are given):
